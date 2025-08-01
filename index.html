@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProdValue/ProdValue/style.css">
+    <title>ProdValue</title>
+</head>
+<body>
+    
+    <header>ProdValue</header>
+	<h1>Quer saber quanto cobrar?<br>Descubra o valor justo do seu produto agora!</h1>
+	
+    <div class="container">
+
+        <main>
+
+            <section>
+
+                <label for="valorMaterial">
+                    Valor do material
+
+                    <span title="Material usado na produção do produto">❓</span><br>
+                    <input type="text" id="valorMaterial" placeholder="Ex: R$ 50,00">
+                
+                </label>
+            </section>
+
+            <section>
+
+                <label for="porcentagemMdo">
+                    Porcentagem mão de obra
+
+                    <span title="Quantos porcento voçê quer receber de mão de obra. Obs: essa porcentagem é baseada no valor do material">❓</span><br>
+                    <input type="text" id="porcentagemMdo" placeholder="Ex: 10%">
+                
+                </label>
+            </section>
+
+            <section>
+
+                <label for="porcentagemLucro">
+                    Porcentagem lucro
+
+                    <span title="Quantos porcento voçê quer receber de lucro. Obs: também baseada no valor do material">❓</span><br>
+                    <input type="text" id="porcentagemLucro" placeholder="Ex: 10%">
+                
+                </label>
+            </section>
+
+            <section>
+                <button id="btnCalcular">Calcular</button>
+                <button id="btnReset">Reset</button>
+                <p id = "resultado"></p>
+            </section>
+
+            <img id="imgIlustracao" src="ProdValue/ProdValue/img.png" alt="">
+
+        </main>
+    </div>
+
+    <footer>
+        <p>Desenvolvido por: Lucas Mikael <br>
+		<a href="www.linkedin.com/in/lucas-mikael-85b129278">Linkedin</a> 
+		<a href="https://github.com/LucasMFP">GitHub</a> 
+		<a href="https://www.instagram.com/lucas.fernandes/">Instagram</a></p>
+
+    <script src="ProdValue/ProdValue/interativ.js"></script>
+</body>
+</html>
